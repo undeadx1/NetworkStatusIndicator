@@ -1,6 +1,6 @@
 # NetworkStatusIndicator
 
-A simple and customizable network status indicator for Unity. The script displays a series of bars representing the quality of the network connection, where the number of visible bars changes according to the current network latency. No additional image files are needed, as the indicator is generated programmatically.
+A simple and customizable network status indicator for Unity3D. The script displays a series of bars representing the quality of the network connection, where the number of visible bars changes according to the current network latency. No additional image files are needed, as the indicator is generated programmatically.
 
 # Features
 Real-time network latency detection.
