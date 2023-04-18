@@ -36,8 +36,8 @@ namespace GeirDev
 
         private float GetNetworkSensitivity(float ping)
         {
-            float maxPing = 300;
-            float minPing = 0;
+            float maxPing = 500;
+            float minPing = 10;
 
             return Mathf.Clamp01(1 - (ping - minPing) / (maxPing - minPing));
         }
