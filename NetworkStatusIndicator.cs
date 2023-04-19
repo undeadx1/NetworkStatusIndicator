@@ -9,10 +9,13 @@ namespace GeirDev
     public class NetworkStatusIndicator : MonoBehaviour
     {
         public Image currentStatusIcon;
+        
         private Texture2D statusTexture;
+        private readonly float defaultSensitivity = 0.8f;
 
         private void Start()
         {
+            SetStatusTextureSensitivity(defaultSensitivity);
             StartCoroutine(CheckNetworkStatus());
         }
 
