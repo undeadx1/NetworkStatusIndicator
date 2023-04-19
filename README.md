@@ -18,5 +18,8 @@ Add a UI Image component to the GameObject and assign it to the currentStatusIco
 After installing the script and setting up the GameObject, the network status indicator will automatically update the bars' visibility and colors based on the current network latency. The indicator sends a request to a specified URL every 5 seconds to measure the latency. You can replace the example URL (http://www.google.com) in the CheckNetworkStatus coroutine with any URL of your choice:
 You can also customize the number of bars, their colors, and dimensions by modifying the script's variables.
 
+# License
+This project is available under the MIT License.
+
 
 
